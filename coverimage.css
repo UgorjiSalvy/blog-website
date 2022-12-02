@@ -1,0 +1,32 @@
+/* Reset */
+html {
+	box-sizing: border-box;
+}
+*::after, *::before {
+	box-sizing: inherit;
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+/*body*/
+body {
+    margin: 0 auto;
+}
+/* Deity  Image Cover Pic */
+.primordialimg {
+	background-image: url(./media/Primordial_Beings.webp);
+	height: 24em;
+    background-size: cover;
+    background-repeat: no-repeat;
+	margin-bottom: .5em;
+    background-position: center;
+}
+.titanimg{
+	background-image: url(./media/Atlas_1.webp);
+	height: 20em;
+    background-size: cover;
+    background-repeat: no-repeat;
+	margin-bottom: .2em;
+    background-position: center;
+}

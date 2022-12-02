@@ -1,0 +1,61 @@
+/* Reset */
+html {
+	box-sizing: border-box;
+}
+*::after, *::before {
+	box-sizing: inherit;
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+/*body*/
+body {
+    margin: 0 auto;
+	background-image: linear-gradient(to right, rgba(134, 132, 132, 0.609), rgba(80, 80, 80, 0.752), rgba(0, 0, 0, 0.729));
+}
+/* Starting css for the main code */
+.prim{
+	background-image: linear-gradient(to right, yellow, gold, orange, rgb(131, 131, 4), rgb(146, 124, 1), rgb(159, 127, 0), orange, gold, yellow);
+	width: 100%;
+	padding-left: 2%;
+	font-family: 'Arial Rounded MT Bold', 'Cooper Black', Arial;
+	font-size: 400%;
+}
+.order1{
+	display: flex;
+	margin: 2rem 8% 0 8%;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+.img > h2{
+	text-align: end;
+	color: rgb(0, 0, 0);
+	background-color: rgba(128, 255, 0, 0.845);
+	width: 100%;
+}
+.img{
+	border: 2px solid black;
+	height: 15em;
+	width: 15em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: blanchedalmond;
+}
+.img1{background-image: url("./media/achyls.jpg");}
+.img2{background-image: url("./media/Stribog_and_Aeolus.jpg");}
+.img3{background-image: url("./media/aether\ with\ a\ spear.webp");}
+.img4{background-image: url("./media/Primordial_Beings.webp");}
+.img5{background-image: url("./media/Ananke.jpg");}
+.img6{background-image: url("./media/apate\(mirage\,\ deceit\,\ lie\).jpg");}
+.img7{background-image: url("./media/chaos.webp");}
+.img8{background-image: url("./media/chronus.crdownload");}
+.img9{background-image: url("./media/Erebus\ \(2\).jpg");}
+.img10{background-image: url("./media/anime\ eros.jpg");}
+.img11{background-image: url("./media/gaea.jpg");}
+.img12{background-image: url("./media/geras.webp");}
+.img13{background-image: url("./media/hemera.webp");}
+.img14{background-image: url("./media/hydros.jpg");}
+.img15{background-image: url("./media/keres\(violent\ death\).jpg");}
+.img16{background-image: url("./media/Doom\,\ Dream\,\ Sleep\,\ Satire.jpg");}
