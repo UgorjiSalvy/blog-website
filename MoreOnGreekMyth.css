@@ -11,18 +11,19 @@ html {
 }
 /*body*/
 body {
-    margin: 0 auto;
 	background-image: linear-gradient(to right, rgba(134, 132, 132, 0.609), rgba(80, 80, 80, 0.752), rgba(0, 0, 0, 0.729));
 }
 /* Starting css for the main code */
-.prim{
+.prim, .tita{
 	background-image: linear-gradient(to right, yellow, gold, orange, rgb(131, 131, 4), rgb(146, 124, 1), rgb(159, 127, 0), orange, gold, yellow);
 	width: 100%;
-	padding-left: 2%;
 	font-family: 'Arial Rounded MT Bold', 'Cooper Black', Arial;
 	font-size: 400%;
 }
-.order1{
+.tita{
+	margin-top: 1em;
+}
+.order1, .order2{
 	display: flex;
 	margin: 2rem 8% 0 8%;
 	flex-wrap: wrap;
@@ -31,7 +32,8 @@ body {
 .img > h2{
 	text-align: end;
 	color: rgb(0, 0, 0);
-	background-color: rgba(128, 255, 0, 0.845);
+	height: 1.2em;
+	background-color: rgba(128, 255, 0, 0.904);
 	width: 100%;
 }
 .img{
@@ -43,6 +45,18 @@ body {
 	background-position: center;
 	background-color: blanchedalmond;
 }
+.img .hover{
+	width: 98%;
+	height: fit-content;
+	background-color: rgba(58, 14, 14, 0.468);
+	color: rgba(255, 255, 255, 0.872);
+	margin-top: 0em;
+	padding: .2em;
+}
+.img:active{
+	animation-duration: 2s;
+	zoom: 175%;
+}
 .img1{background-image: url("./media/achyls.jpg");}
 .img2{background-image: url("./media/Stribog_and_Aeolus.jpg");}
 .img3{background-image: url("./media/aether\ with\ a\ spear.webp");}
@@ -52,10 +66,48 @@ body {
 .img7{background-image: url("./media/chaos.webp");}
 .img8{background-image: url("./media/chronus.crdownload");}
 .img9{background-image: url("./media/Erebus\ \(2\).jpg");}
-.img10{background-image: url("./media/anime\ eros.jpg");}
-.img11{background-image: url("./media/gaea.jpg");}
-.img12{background-image: url("./media/geras.webp");}
-.img13{background-image: url("./media/hemera.webp");}
-.img14{background-image: url("./media/hydros.jpg");}
-.img15{background-image: url("./media/keres\(violent\ death\).jpg");}
-.img16{background-image: url("./media/Doom\,\ Dream\,\ Sleep\,\ Satire.jpg");}
+.img10{background-image: url("./media/Eris.webp");}
+.img11{background-image: url("./media/anime\ eros.jpg");}
+.img12{background-image: url("./media/gaea.jpg");}
+.img13{background-image: url("./media/geras.webp");}
+.img14{background-image: url("./media/hemera.webp");}
+.img15{background-image: url("./media/hydros.jpg");}
+.img16{background-image: url("./media/keres\(violent\ death\).jpg");}
+.img17{background-image: url("./media/lassa.jpg");}
+.img18{background-image: url("./media/Doom\,\ Dream\,\ Sleep\,\ Satire.jpg");}
+.img19{background-image: url("./media/sleep.jpg");}
+.img20{background-image: url("./media/ourea.jpg");}
+.img21{background-image: url("./media/Tyche.webp");}
+.img22{background-image: url("./media/nyx.jpg");}
+.img23{background-image: url("./media/Mount\ ourea.jpg");}
+.img24{background-image: url("./media/Phanes\(creator\).jpg");}
+.img25{background-image: url("./media/thesis\,\ phusis\ \(nature\).png");}
+.img26{background-image: url("./media/tartarus.jpg");}
+.img27{background-image: url("./media/Sea\ Spirit\ Female.jpg");}
+.img28{background-image: url("./media/astraea.jpg");}
+.img29{background-image: url("./media/Typhon\ \(2\).jpg");}
+.img30{background-image: url("./media/uranus\ use.jpg");}
+
+.imga1{background-image: url("./media/asteria.crdownload");}
+.imga2{background-image: url("./media/Asteria.jpg");}
+.imga3{background-image: url("./media/Atlas\ Or\ Herakles.jpg");}
+.imga4{background-image: url("./media/Bia\,\ Styx\,\ Oizys\,\ Ananke.jpg");}
+.imga5{background-image: url("./media/boreas\(wind\,\ ice\,\ winter\).jpg");}
+.imga6{background-image: url("./media/callipso.jpg");}
+.imga7{background-image: url("./media/Coeus.jpg");}
+.imga8{background-image: url("./media/cronus\ use.jpg");}
+.imga9{background-image: url("./media/lassa.webp");}
+.imga10{background-image: url("./media/eos\(dusk\).jpg");}
+.imga11{background-image: url("./media/Female-Spirit-of-the-Sea.png");}
+.imga12{background-image: url("./media/harpyiai.jpg");}
+.imga13{background-image: url("./media/hecate.webp");}
+.imga14{background-image: url("./media/Apollo\(Fire\,\ Metal\,\ Music\).jpg");}
+.imga15{background-image: url("./media/apollo.jpg");}
+.imga16{background-image: url("./media/Krius.jpg");}
+.imga17{background-image: url("./media/leto.jpg");}
+.imga18{background-image: url("./media/Sadness_gaia.webp");}
+.imga19{background-image: url("./media/Magic\,\ Sight\,\ Memory.jpg");}
+.imga20{background-image: url("./media/Nike.jpg");}
+.imga21{background-image: url("./media/oceanus\ \(2\).jpg");}
+.imga22{background-image: url("./media/Herakles-Pallas-Zeus-Uranus.jpg");}
+.imga23{background-image: url("./media/perces.jpg");}
